@@ -21,4 +21,15 @@ pipeline {
 			}
 		}
 	}
+	post {
+		always {
+			echo 'I run always...!'	
+		}
+		success {
+			echo 'I run only when the build is success'
+		}
+		failure {
+			echo 'I run if the build fails'	
+		}
+	}
 }
