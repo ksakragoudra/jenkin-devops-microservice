@@ -23,7 +23,7 @@ pipeline {
 	}
 	post {
 		always {
-			echo 'I run always...!'	
+			echo 'I run always...! testing polling'	
 		}
 		success {
 			echo 'I run only when the build is success'
