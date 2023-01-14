@@ -5,7 +5,7 @@ public class HelloWorld {
     public String sayHello(String name) {
 
         System.out.println("sayHello called with name : " + name);
-        return "Good Morning " + name;
+        return "Good Afternoon " + name;
     }
 
 }
